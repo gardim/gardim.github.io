@@ -13,18 +13,18 @@
 
 theme: jekyll-agency
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Your Awesome Website
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Site description"
-author     : Your Name
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+title      : Gardim 
+email      : gardim@gardim.com #this is also the email contact forms will go to
+description: "Landpage for Gardim"
+author     : Gardim
+logo:     #optional, defaults to site title
+  path: assets\img\gardim.png
+  height: 100 #height in px, defaults to 52px
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+locale: "pt-BR" # See available languages in _data/sitetext.yml
 
 analytics:
   google: #Google Analytics tracking code here

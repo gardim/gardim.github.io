@@ -13,8 +13,6 @@ en: &DEFAULT_EN
   nav:
     - title: "Services"
       section: services
-    - title: "Portfolio"
-      section: portfolio
     - title: "About"
       section: about
     - title: "Timeline"
@@ -40,8 +38,6 @@ es: &DEFAULT_ES
   nav:
     - title: "Servicios"
       section: servicios
-    - title: "Portafolio"
-      section: portafolio
     - title: "Sobre Nosotros"
       section: nosotros
     - title: "Cronología"
@@ -56,3 +52,20 @@ es-ES:
   <<: *DEFAULT_ES
 es-CO:
   <<: *DEFAULT_ES
+
+pt: &DEFAULT_PT
+  nav:
+    - title: "Serviços"
+      section: servicos
+    - title: "Sobre Nós"
+      section: sobrenos
+    - title: "Funcionamento"
+      section: portfolio
+    - title: "Veja Mais"
+      section: seemore
+    - title: "Equipe"
+      section: equipe
+    - title: "Contato"
+      section: contact
+pt-BR:
+  <<: *DEFAULT_PT

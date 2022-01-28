@@ -34,6 +34,35 @@
       </div>
     </div>
   </div>
+  <script>
+    function getValue(){
+      fetch("https://api.countapi.xyz/info/gardim.github.io/a83df8ae-c71f-470b-83bf-ce296a83c863")
+        .then(response => response.json())
+          .then(result => document.getElementById("counter").innerHTML = result.value);
+
+      if(localStorage.getItem("isClicked") === "true"){
+        console.log(localStorage.getItem("isClicked"));
+        document.getElementById("interested").disabled = true;
+      }
+     
+    }
+
+    getValue();
+
+    function clicked() {
+      if(localStorage.getItem("isClicked") !== "true"){
+        localStorage.setItem("isClicked", "true");
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://api.countapi.xyz/hit/gardim.github.io/a83df8ae-c71f-470b-83bf-ce296a83c863");
+        xhr.responseType = "json";
+        xhr.onload = function() {
+          getValue();
+          document.getElementById("interested").disabled = true;
+        }
+        xhr.send();
+      }    
+    }
+    </script>
 </footer>
 {% if page.layout == "page" %}
 <script>

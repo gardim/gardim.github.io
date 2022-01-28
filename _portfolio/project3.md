@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: 1.
+  title: 4.
   subtitle: Step
   thumbnail: https://place-hold.it/300x400
   

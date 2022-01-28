@@ -1,0 +1,59 @@
+<!-- carousel -->
+<section class="page-section" id="{{ site.data.sitetext[site.locale].carousel.section | default: "carousel" }}">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+          <div class="carousel">
+            <input type="radio" id="carousel-1" name="carousel[]" checked>
+            <input type="radio" id="carousel-2" name="carousel[]">
+             <input type="radio" id="carousel-3" name="carousel[]">
+            <input type="radio" id="carousel-4" name="carousel[]">
+            <input type="radio" id="carousel-5" name="carousel[]">
+            <ul class="carousel__items">
+              <li class="carousel__item"><img src="https://place-hold.it/300x400" alt=""></li>
+              <li class="carousel__item"><img src="https://place-hold.it/300x400" alt=""></li>
+              <li class="carousel__item"><img src="https://place-hold.it/300x400" alt=""></li>
+              <li class="carousel__item"><img src="https://place-hold.it/300x400" alt=""></li>
+              <li class="carousel__item"><img src="https://place-hold.it/300x400" alt=""></li>
+            </ul>
+             <div class="carousel__prev">
+              <label for="carousel-1"></label>
+              <label for="carousel-2"></label>
+              <label for="carousel-3"></label>
+              <label for="carousel-4"></label>
+              <label for="carousel-5"></label>
+             </div>
+             <div class="carousel__next">
+               <label for="carousel-1"></label>
+               <label for="carousel-2"></label>
+               <label for="carousel-3"></label>
+               <label for="carousel-4"></label>
+               <label for="carousel-5"></label>
+             </div>
+             <div class="carousel__nav">
+               <label for="carousel-1"></label>
+               <label for="carousel-2"></label>
+               <label for="carousel-3"></label>
+               <label for="carousel-4"></label>
+               <label for="carousel-5"></label>
+             </div>
+           </div>
+         </div>
+        <div class="col-lg-6">
+          <h1>{{ site.data.sitetext[site.locale].carousel.title | default: "carousel Us" }}</h1>
+          <h3>{{ site.data.sitetext[site.locale].carousel.subtitle | default: "carousel Us" }}</h3>
+          <p>{{ site.data.sitetext[site.locale].carousel.body | default: "carousel Us" }}</p>
+          <div class="row">
+            <div class="col-lg-6">
+              <h4>People Interested:</h4>
+              <h3 id="counter"></h3>
+            </div>
+            <div class="col-lg-6">
+            <button id="interested" class="btn btn-primary btn-xl text-uppercase" onclick="clicked()">I am Interested!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- End carousel -->
