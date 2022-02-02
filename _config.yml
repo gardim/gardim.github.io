@@ -11,16 +11,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: jekyll-agency
+remote_theme: raviriley/agency-jekyll-theme
 
-url    : "https://gardim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gardim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Gardim 
-email      : gardim@gardim.com #this is also the email contact forms will go to
+title: Gardim
+email: gardim@gardim.com #this is also the email contact forms will go to
 description: "Landpage for Gardim"
-author     : Gardim
-logo:     #optional, defaults to site title
+author: Gardim
+logo: #optional, defaults to site title
   path: assets\img\gardim.png
   height: 50 #height in px, defaults to 52px
 
@@ -34,6 +34,8 @@ collections:
 
 markdown: kramdown
 
+plugins:
+  - jekyll-remote-theme
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
 # formspree_form_path: "f/a_form_id"
