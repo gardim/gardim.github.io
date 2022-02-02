@@ -22,7 +22,7 @@ description: "Landpage for Gardim"
 author     : Gardim
 logo:     #optional, defaults to site title
   path: assets\img\gardim.png
-  height: 100 #height in px, defaults to 52px
+  height: 50 #height in px, defaults to 52px
 
 locale: "pt-BR" # See available languages in _data/sitetext.yml
 

@@ -1,0 +1,39 @@
+<section class="page-section" id="{{ site.data.sitetext[site.locale].interestedqr.section | default: "interestedqr"
+    }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].interestedqr.title
+                            | default:
+                            "Interested?" }}
+                        </h2>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-6 text-center">
+
+                        <h3 class="mt-5 section-subheading">
+                            {{ site.data.sitetext[site.locale].interestedqr.text | default: "" }}
+                        </h3>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <h3>
+                            <img src="{{ site.data.sitetext[site.locale].interestedqr.qrcode | default: "" }}"/>
+                        </h3>
+                        
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <button class="btn btn-primary btn-xl text-uppercase" onclick="location.href='https://github.com/gardim/gardim-mvp/releases/download/1.1.1/gardim-app-mvp.apk';" >
+                            Baixar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

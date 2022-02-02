@@ -1,0 +1,16 @@
+<section class="page-section" id="{{ site.data.sitetext[site.locale].interest.section | default: "interest" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].interest.title | default: "Our
+          engagement" }}</h2>
+        <h3 class="mt-5 section-subheading">{{ site.data.sitetext[site.locale].interest.top | default: "" }}</h3>
+        <h3 id="counter"></h3>
+        <h3 class="section-subheading">{{ site.data.sitetext[site.locale].interest.bottom | default: "" }}</h3>
+        <h3 class="section-subheading mt-5">{{ site.data.sitetext[site.locale].interest.footer | default: "" }}</h3>
+        <button id="interested" class="btn btn-primary btn-xl text-uppercase" onclick="clicked()">{{
+          site.data.sitetext[site.locale].interest.buttonText | default: "I am Interested!" }}</button>
+      </div>
+    </div>
+  </div>
+</section>

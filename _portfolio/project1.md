@@ -1,8 +1,8 @@
 ---
 caption: #what displays in the portfolio grid:
   title: 2.
-  subtitle: Step
-  thumbnail: https://place-hold.it/300x400
+  subtitle: Temos vários sensores acoplados à placa, dentre eles para medir a temperatura do ar, quantidade de luminosidade, temperatura do solo e umidade do solo.
+  thumbnail: assets/2.png
   
 #what displays when the item is clicked:
 title: Title

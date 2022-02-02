@@ -55,17 +55,21 @@ es-CO:
 
 pt: &DEFAULT_PT
   nav:
-    - title: "Serviços"
+    - title: "INFORMAÇÕES"
       section: servicos
-    - title: "Sobre Nós"
-      section: sobrenos
     - title: "Funcionamento"
       section: portfolio
     - title: "Veja Mais"
       section: seemore
+    - title: "Interesse"
+      section: interestedqr
+    - title: "Engajamento"
+      section: interest
     - title: "Equipe"
       section: equipe
-    - title: "Contato"
-      section: contact
+    - title: "Sobre Nós"
+      section: cronologia
+    - title: "Pesquisa"
+      section: research
 pt-BR:
   <<: *DEFAULT_PT

@@ -1,8 +1,8 @@
 ---
 caption: #what displays in the portfolio grid:
   title: 1.
-  subtitle: Step
-  thumbnail: https://place-hold.it/300x400
+  subtitle: Utilizamos uma placa ESP-32 para o processamento das informações da planta
+  thumbnail: assets/1.png
   
 #what displays when the item is clicked:
 title: Title

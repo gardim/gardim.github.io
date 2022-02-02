@@ -1,8 +1,8 @@
 ---
 caption: #what displays in the portfolio grid:
   title: 4.
-  subtitle: Step
-  thumbnail: https://place-hold.it/300x400
+  subtitle: No aplicativo, identificamos o tipo da planta, e determinamos se as informações vindas do aplicativo condizem com determinada espécie.
+  thumbnail: assets/4.png
   
 #what displays when the item is clicked:
 title: Title
