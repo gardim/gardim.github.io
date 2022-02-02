@@ -427,7 +427,7 @@ pt: &DEFAULT_PT
         role: "Engenheiro Mecatronico, Gerência"
         image: assets/brendow.jpg
         social:
-          - url: linkedin.com/in/brendow-alves/
+          - url: https://www.linkedin.com/in/brendow-alves/
             icon: fab fa-linkedin-in
           - url: mailto:brendowalves@hotmail.com
             icon: far fa-envelope
