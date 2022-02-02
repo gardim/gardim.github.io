@@ -470,11 +470,11 @@ pt: &DEFAULT_PT
   footer:
     legal: ""
     social:
-      - url: mailto:gardim.app@gmail.com
+      - url: mailto:app.gardim@gmail.com
         icon: "far fa-envelope"
       - url: https://github.com/gardim
         icon: "fab fa-github"
-      - url: https://www.youtube.com/channel/UCJ0Sot6e_A8_wHaow6cvXHw
+      - url: https://www.youtube.com/channel/UCUUtl3rkyXdc0OOYjBhYuag
         icon: "fab fa-youtube"
       - url: https://www.instagram.com/gardim.app
         icon: "fab fa-instagram"
