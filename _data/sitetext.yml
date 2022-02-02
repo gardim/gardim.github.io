@@ -381,7 +381,7 @@ pt: &DEFAULT_PT
 
   seemore:
     title: "Veja mais detalhes"
-    body: <iframe class="video-yt" src="https://youtu.be/UeHJT5OLvsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    body: <iframe class="video-yt" src="https://www.youtube.com/embed/UeHJT5OLvsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   about:
     title: "Sobre Nós"
