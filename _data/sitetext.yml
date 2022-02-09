@@ -321,7 +321,7 @@ pt: &DEFAULT_PT
   carousel:
     title: Gardim
     subtitle: "Levando tecnologia ao seu jardim"
-    body: "O Gardim tem o objetivo de facilitar o cultivo de plantas, sejam estas colocadas em qualquer abiente. Para isso, fornecemos um dispositivo inteligente que se acopla a qualquer vaso que a pessoa tenha em casa. Este dispositivo contém sensores para a captura de informações, e que, juntamente a um aplicativo, notifica e informa o usuário sobre quais os melhores cuidados necessários para garantir a saúde da planta."
+    body: "O Gardim tem o objetivo de facilitar o cultivo de plantas, sejam estas colocadas em qualquer ambiente. Para isso, fornecemos um dispositivo inteligente que se acopla a qualquer vaso que a pessoa tenha em casa. Este dispositivo contém sensores para a captura de informações, e que, juntamente a um aplicativo, notifica e informa o usuário sobre quais os melhores cuidados necessários para garantir a saúde da planta."
     peopleinterested: "Pessoas Interessadas:"
     buttonText: "Gostou da ideia?"
 
